@@ -10,6 +10,7 @@ setInterval(() => {
 //Q:2 write a function which takes your name and displays the greeting with your name
 var greet =()=>{
  let userName = prompt("Enter your name");
+ userName = userName? userName:"Guest";
  alert(`Welcome ${userName}`)
 }
 greet();
